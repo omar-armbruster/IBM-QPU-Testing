@@ -1,0 +1,20 @@
+I have been working on installing qiskit and learning the basics so that I can begin to
+implement Shor's algorithm. I have installed qiskit and its adjacent packages (although there
+are still some dependency issues to resolve) and am following the basic tutorial on the IBM website.
+I have also built the QFT-1QFT|x> circuit to see if we can replicate the results. I have not been able
+to run the circuits yet without connecting to the IBM quantum computer, but my goal is to figure out how
+to do that next. I have attached the visualization of the QFT circuit below.
+
+     ┌───┐┌──────┐┌───────┐ ░ ┌─┐
+   q_0: ┤ X ├┤0     ├┤0      ├─░─┤M├────────────
+        └───┘│      ││       │ ░ └╥┘┌─┐
+   q_1: ─────┤1     ├┤1      ├─░──╫─┤M├─────────
+             │      ││       │ ░  ║ └╥┘┌─┐      
+   q_2: ─────┤2 QFT ├┤2 IQFT ├─░──╫──╫─┤M├──────
+             │      ││       │ ░  ║  ║ └╥┘┌─┐
+   q_3: ─────┤3     ├┤3      ├─░──╫──╫──╫─┤M├───
+             │      ││       │ ░  ║  ║  ║ └╥┘┌─┐
+   q_4: ─────┤4     ├┤4      ├─░──╫──╫──╫──╫─┤M├
+             └──────┘└───────┘ ░  ║  ║  ║  ║ └╥┘
+meas: 5/══════════════════════════╩══╩══╩══╩══╩═
+                                  0  1  2  3  4
