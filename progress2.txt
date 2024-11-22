@@ -1,0 +1,8 @@
+I have figured out my dependency issues and am now able to run my code in Jupyter. This also allows me to
+generate more visually appealing circuit diagrams. I was able to run a simulator, which allows me to run my
+circuits using a theoretical model of a quantum computer. Using this, I ran a simple circuit shown in the IBM
+tutorials and was able to make a working QFT-1QFT|x> circuit, which behaves as we would expect it. I have 
+started building the Shor's algorithm circuit. For now this mostly just includes the two QFTs, but I have also
+started researching how to make my own Uf function. Once I am able to finish building the circuit and can run it
+on my simulator, I will start researching how to run the circuit on IBM's actual quantum computer, which will
+hopefully yield some interesting results.
