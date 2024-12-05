@@ -1,0 +1,5 @@
+The main intention of this project was to determine the limits of IBM's real quantum computer. I originally intended to do this using Shor's algorithm.
+While I have been able to implement a version of Shor's algorithm using the qiskit tutorials, I have not been able to generalize it, making it difficult
+to perform any type of analysis on the algorithm. I have run trials of the QFT QFT-1 algorithm on IBM's quantum computer with a varying number of qubits and have 
+begun analysis on the results, focusing on the accuracy of the measurements, which has proven to be insightful thus far. I intend to investiagate a way to 
+generalize the Shor's approach so we have a more interesting algorithm to experiment with, but if I am unable to figure it out in a timely manner, I will continue with the analysis on the QFT QFT-1 algorithm to see if we can make any more interesting findings.
